@@ -1,3 +1,4 @@
+/* Default styling is for mobile */
 body {
   font-family: "Karla", sans-serif;
   background-color: #e6eef7;
@@ -7,7 +8,7 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   place-items: center;
-  max-width: 49%;
+  max-width: 100%;
   margin: 0 auto; /* Center the grid container */
   margin-top: 3.1rem;
   padding: 20px; /* Add some padding for spacing */
@@ -15,6 +16,8 @@ body {
 }
 .grid-item {
   width: 100%;
+  padding: 2rem;
+  box-sizing: border-box;
 }
 
 #join {
@@ -32,9 +35,4 @@ body {
 footer {
   margin-top: 3rem;
   text-align: center;
-}
-@media screen and (max-width: 768px) {
-  .grid-container {
-    max-width: 100%; /* Make it full width on smaller screens */
-  }
 }
