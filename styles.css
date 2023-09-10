@@ -1,3 +1,37 @@
-html body {
+/* Default styling is for mobile view */
+body {
   font-family: "Karla", sans-serif;
+  background-color: #e6eef7;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  max-width: 80%;
+  margin: 0 auto; /* Center the grid container */
+  padding: 20px; /* Add some padding for spacing */
+  box-sizing: border-box; /* Include padding in max-width calculation */
+}
+
+#join {
+  background-color: #ffffff;
+}
+
+#subscription {
+  background-color: #2bb3b1;
+}
+
+#why {
+  background-color: #4bbfbd;
+}
+
+footer {
+  margin-top: 3rem;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .grid-container {
+    max-width: 100%; /* Make it full width on smaller screens */
+  }
 }
