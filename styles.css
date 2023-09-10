@@ -20,6 +20,16 @@ body {
   box-sizing: border-box;
 }
 
+#join h2 {
+  color: #4bbfbd;
+}
+#join h4 {
+  color: hsl(71, 73%, 54%);
+}
+#join p {
+  color: hsl(218, 22%, 67%);
+}
+
 #join {
   background-color: #ffffff;
 }
