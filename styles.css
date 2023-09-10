@@ -7,8 +7,9 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   place-items: center;
-  max-width: 80%;
+  max-width: 49%;
   margin: 0 auto; /* Center the grid container */
+  margin-top: 3.1rem;
   padding: 20px; /* Add some padding for spacing */
   box-sizing: border-box; /* Include padding in max-width calculation */
 }
