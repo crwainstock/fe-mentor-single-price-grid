@@ -1,4 +1,3 @@
-/* Default styling is for mobile view */
 body {
   font-family: "Karla", sans-serif;
   background-color: #e6eef7;
@@ -12,6 +11,9 @@ body {
   margin: 0 auto; /* Center the grid container */
   padding: 20px; /* Add some padding for spacing */
   box-sizing: border-box; /* Include padding in max-width calculation */
+}
+.grid-item {
+  width: 100%;
 }
 
 #join {
