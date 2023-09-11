@@ -48,8 +48,13 @@ body {
   color: #ffffff;
 }
 
+#subscription h2 {
+  font-size: 4vw;
+  margin-top: 0rem;
+}
+
 #subscription span {
-  font-size: 10vw;
+  font-size: 7vw;
 }
 
 #why {
