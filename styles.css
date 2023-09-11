@@ -26,9 +26,13 @@ body {
   font-size: 4.5vw;
 }
 #join h4 {
+  margin-top: 1.75rem;
   color: hsl(71, 73%, 54%);
+  font-size: 3.75vw;
 }
 #join p {
+  font-size: 3.2vw;
+  line-height: 1.75;
   color: hsl(218, 22%, 67%);
 }
 
