@@ -54,7 +54,11 @@ body {
 }
 
 #subscription span {
-  font-size: 7vw;
+  font-size: 8vw;
+}
+
+#subscription p {
+  margin-top: 0.5rem;
 }
 
 #why {
