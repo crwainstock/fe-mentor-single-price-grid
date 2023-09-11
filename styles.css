@@ -45,6 +45,11 @@ body {
 
 #subscription {
   background-color: #2bb3b1;
+  color: #ffffff;
+}
+
+#subscription span {
+  font-size: 10vw;
 }
 
 #why {
