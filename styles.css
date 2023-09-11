@@ -53,8 +53,12 @@ body {
   margin-top: 0rem;
 }
 
-#subscription span {
+#dollar {
   font-size: 8vw;
+}
+
+#light-cyan {
+  color: #4bbfbd;
 }
 #full-access {
   margin-top: 0rem;
@@ -66,9 +70,17 @@ body {
 
 button {
   margin-top: 1.4rem;
-  padding-top: 1rem;
-  padding-bottom: 0.8rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-radius: 5px;
   width: 100%;
+  font-size: 3.5vw;
+  color: #ffffff;
+  background-color: hsl(71, 73%, 54%);
+  border-color: hsl(71, 73%, 54%);
+  border-style: solid;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
 }
 
 #why {
