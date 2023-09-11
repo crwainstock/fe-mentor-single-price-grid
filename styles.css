@@ -16,12 +16,13 @@ body {
 }
 .grid-item {
   width: 100%;
-  padding: 2rem;
+  padding: 1.4rem;
   box-sizing: border-box;
 }
 
 #join h2 {
   color: #4bbfbd;
+  font-size: 5vw;
 }
 #join h4 {
   color: hsl(71, 73%, 54%);
