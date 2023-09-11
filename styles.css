@@ -21,8 +21,9 @@ body {
 }
 
 #join h2 {
+  margin-top: 0.5rem;
   color: #4bbfbd;
-  font-size: 5vw;
+  font-size: 4.5vw;
 }
 #join h4 {
   color: hsl(71, 73%, 54%);
