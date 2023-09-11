@@ -23,14 +23,16 @@ body {
 #join h2 {
   margin-top: 0.5rem;
   color: #4bbfbd;
-  font-size: 4.5vw;
+  font-size: 4.6vw;
 }
 #join h4 {
-  margin-top: 1.75rem;
+  margin-top: 1.5rem;
   color: hsl(71, 73%, 54%);
-  font-size: 3.75vw;
+  font-size: 3.5vw;
+  line-height: 1.25;
 }
 #join p {
+  margin-top: 0.75em;
   font-size: 3.2vw;
   line-height: 1.75;
   color: hsl(218, 22%, 67%);
