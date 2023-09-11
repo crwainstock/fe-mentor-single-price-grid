@@ -56,9 +56,19 @@ body {
 #subscription span {
   font-size: 8vw;
 }
+#full-access {
+  margin-top: 0rem;
+}
 
 #subscription p {
-  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+button {
+  margin-top: 1.4rem;
+  padding-top: 1rem;
+  padding-bottom: 0.8rem;
+  width: 100%;
 }
 
 #why {
