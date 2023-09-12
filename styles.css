@@ -99,7 +99,7 @@ button:hover button:active {
 }
 
 #why p {
-  /* font-size: 4vh; */
+  font-size: 4vh;
   margin-top: 0;
   margin-bottom: 0.25rem;
 }
