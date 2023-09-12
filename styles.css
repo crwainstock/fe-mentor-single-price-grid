@@ -118,7 +118,7 @@ footer {
   .grid-container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
+    grid-template-rows: auto auto auto;
     place-items: center;
     max-width: 85%;
     margin: 0 auto; /* Center the grid container */
