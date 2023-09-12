@@ -68,6 +68,15 @@ body {
   margin-bottom: 0.5rem;
 }
 
+#why {
+  color: #ffffff;
+}
+
+#why h2 {
+  margin-top: 0.25rem;
+  font-size: 5vh;
+}
+
 button {
   margin-top: 1.4rem;
   padding-top: 0.75rem;
