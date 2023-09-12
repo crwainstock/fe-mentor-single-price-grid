@@ -112,3 +112,33 @@ footer {
   margin-top: 3rem;
   text-align: center;
 }
+
+/* For larger screens */
+@media only screen and (min-width: 660px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    place-items: center;
+    max-width: 85%;
+    margin: 0 auto; /* Center the grid container */
+    margin-top: 3.1rem;
+    padding: 20px; /* Add some padding for spacing */
+    box-sizing: border-box; /* Include padding in max-width calculation */
+  }
+  .grid-item {
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem;
+    box-sizing: border-box;
+  }
+  .full-width {
+    grid-column: 1 / span 2; /* First column, span 1 column */
+    grid-row: 1 / span 1; /* First row, span 1 row */
+  }
+
+  .half-width {
+    grid-column: auto; /* Automatically place in the grid */
+    grid-row: 2 / span 1; /* Second row, span 1 row */
+  }
+}
