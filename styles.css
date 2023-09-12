@@ -68,21 +68,6 @@ body {
   margin-bottom: 0.5rem;
 }
 
-#why {
-  color: #ffffff;
-}
-
-#why h2 {
-  margin-top: 0.25rem;
-  margin-bottom: 1.2rem;
-  font-size: 5vh;
-}
-
-#why p {
-  font-size: 4vh;
-  margin-top: 0;
-  margin-bottom: 0.25rem;
-}
 button {
   margin-top: 1.4rem;
   padding-top: 0.75rem;
@@ -103,6 +88,21 @@ button:hover button:active {
   border-color: hsl(71, 73%, 54%, 0.75);
 }
 
+#why {
+  color: #ffffff;
+}
+
+#why h2 {
+  margin-top: 0.25rem;
+  margin-bottom: 1.2rem;
+  font-size: 5vh;
+}
+
+#why p {
+  /* font-size: 4vh; */
+  margin-top: 0;
+  margin-bottom: 0.25rem;
+}
 #why {
   background-color: #4bbfbd;
   border-radius: 0 0 5px 5px;
