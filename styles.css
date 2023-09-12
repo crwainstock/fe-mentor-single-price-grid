@@ -95,7 +95,7 @@ button:hover button:active {
 #why h2 {
   margin-top: 0.25rem;
   margin-bottom: 1.2rem;
-  /* font-size: 5vh; */
+  font-size: 5vh;
 }
 
 #why p {
