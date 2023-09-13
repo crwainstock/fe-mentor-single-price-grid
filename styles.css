@@ -25,7 +25,7 @@ body {
   color: #4bbfbd;
   font-size: 4.6vw;
 }
-#join h4 {
+#join h3 {
   margin-top: 1.5rem;
   color: hsl(71, 73%, 54%);
   font-size: 3.5vw;
@@ -158,7 +158,7 @@ footer {
     font-size: 1.75vw;
     letter-spacing: 0.5px;
   }
-  #join h4 {
+  #join h3 {
     margin-top: 1.5rem;
     margin-bottom: 0.9rem;
     color: hsl(71, 73%, 54%);
