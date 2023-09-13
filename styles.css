@@ -120,7 +120,7 @@ footer {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto auto;
     place-items: center;
-    max-width: 50%;
+    max-width: 54.5%;
     margin: 0 auto; /* Center the grid container */
     margin-top: 3.1rem;
     padding: 20px; /* Add some padding for spacing */
