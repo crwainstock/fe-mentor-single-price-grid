@@ -200,14 +200,16 @@ footer {
   }
 
   #why h2 {
-    margin-top: 0.25rem;
+    margin-top: 0rem;
     margin-bottom: 1.2rem;
-    font-size: 2vh;
+    font-size: 1.4vw;
+    letter-spacing: 0.2px;
   }
 
   #why p {
-    font-size: 2vh;
+    font-size: 1vw;
     margin-top: 0;
     margin-bottom: 0.25rem;
+    letter-spacing: 0.2px;
   }
 }
