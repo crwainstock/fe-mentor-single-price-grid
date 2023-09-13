@@ -120,7 +120,7 @@ footer {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto auto;
     place-items: center;
-    max-width: 85%;
+    max-width: 50%;
     margin: 0 auto; /* Center the grid container */
     margin-top: 3.1rem;
     padding: 20px; /* Add some padding for spacing */
@@ -129,7 +129,7 @@ footer {
   .grid-item {
     width: 100%;
     height: 100%;
-    padding: 1.5rem;
+    padding: 2.5rem;
     box-sizing: border-box;
   }
   .full-width {
@@ -145,15 +145,56 @@ footer {
     grid-column: 2 / span 1;
     grid-row: 2 / span 1;
   }
-  #why {
-    border-radius: 0 0 5px 0;
+  #join h2 {
+    margin-top: 0.3rem;
+    color: #4bbfbd;
+    font-size: 1.5vw;
   }
+  #join h4 {
+    margin-top: 1.5rem;
+    color: hsl(71, 73%, 54%);
+    font-size: 1vw;
+    line-height: 1.25;
+  }
+  #join p {
+    margin-top: 0.75em;
+    font-size: 1vw;
+    line-height: 1.75;
+    color: hsl(218, 22%, 67%);
+  }
+
   #subscription {
     border-radius: 0 0 0 5px;
     max-width: 100%;
   }
+  #subscription h2 {
+    font-size: 2vw;
+    margin-top: 0rem;
+  }
+  #dollar {
+    font-size: 3vw;
+  }
+  button {
+    font-size: 1vw;
+  }
   button:hover button:active {
     background-color: hsl(71, 73%, 54%, 0.75);
     border-color: hsl(71, 73%, 54%, 0.75);
+  }
+
+  #why {
+    border-radius: 0 0 5px 0;
+  }
+
+  #why h2 {
+    margin-top: 0.25rem;
+    margin-bottom: 1.2rem;
+    font-size: 2vh;
+  }
+
+  #why p {
+    font-size: 2vh;
+    margin-top: 0;
+    margin-bottom: 0.25rem;
   }
 }
