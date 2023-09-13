@@ -83,7 +83,11 @@ button {
     rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
 }
 
-button:hover button:active {
+button:hover {
+  background-color: hsl(71, 73%, 54%, 0.75);
+  border-color: hsl(71, 73%, 54%, 0.75);
+}
+button:active {
   background-color: hsl(71, 73%, 54%, 0.75);
   border-color: hsl(71, 73%, 54%, 0.75);
 }
