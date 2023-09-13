@@ -175,7 +175,8 @@ footer {
     max-width: 100%;
   }
   #subscription h2 {
-    font-size: 2vw;
+    font-size: 1.3vw;
+    letter-spacing: 0.5px;
     margin-top: 0rem;
   }
   #dollar {
