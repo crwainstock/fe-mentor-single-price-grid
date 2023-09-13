@@ -182,6 +182,11 @@ footer {
   #dollar {
     font-size: 2.6vw;
   }
+
+  #subscription p {
+    font-size: 1.2vw;
+    letter-spacing: 0.3px;
+  }
   button {
     font-size: 1vw;
   }
