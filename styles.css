@@ -185,10 +185,10 @@ footer {
 
   #subscription p {
     font-size: 1.2vw;
-    letter-spacing: 0.3px;
+    letter-spacing: 0.2px;
   }
   button {
-    font-size: 1vw;
+    font-size: 1.2vw;
   }
   button:hover button:active {
     background-color: hsl(71, 73%, 54%, 0.75);
