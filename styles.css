@@ -152,4 +152,8 @@ footer {
     border-radius: 0 0 0 5px;
     max-width: 100%;
   }
+  button:hover button:active {
+    background-color: hsl(71, 73%, 54%, 0.75);
+    border-color: hsl(71, 73%, 54%, 0.75);
+  }
 }
