@@ -117,7 +117,7 @@ footer {
 @media only screen and (min-width: 660px) {
   .grid-container {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto auto;
     place-items: center;
     max-width: 85%;
@@ -150,5 +150,6 @@ footer {
   }
   #subscription {
     border-radius: 0 0 0 5px;
+    max-width: 100%;
   }
 }
