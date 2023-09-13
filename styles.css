@@ -149,12 +149,14 @@ footer {
     margin-top: 0.2rem;
     color: #4bbfbd;
     font-size: 1.75vw;
+    letter-spacing: 0.5px;
   }
   #join h4 {
     margin-top: 1.5rem;
     color: hsl(71, 73%, 54%);
-    font-size: 1vw;
+    font-size: 1.3vw;
     line-height: 1.25;
+    letter-spacing: 0.5px;
   }
   #join p {
     margin-top: 0.75em;
